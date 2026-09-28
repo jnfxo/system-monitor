@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps System Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1> Server Metrics Dashboard</h1>
+        <p class=""subtitle>Real-time Unix System Performance</p>
+
+        <div class="card">
+            <div class="card-header">
+                <h3> Hard Drive Capacity</h3>
+                <span id="disk-text">Loading ...</span>
+            </div>
+
+            <div class="progress-bar-container">
+                <div id="disk-bar" class="progress-bar" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
